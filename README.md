@@ -1,7 +1,7 @@
 # Chat-with-Docs
 Chat with your Docs and gain better insights. Powered by `LlamaIndex` and `Streamlit` is used for UI. 
 Handles `CSV/PDFs/Txt/Doc`. CSV file is catered via [PandasAI](https://llamahub.ai/l/pandas_ai) loader and rest of the docs are handled via 
-`GPTVectorIndex`.
+`GPTVectorStoreIndex`.
 
 Clone the repo or copy the `.py ` file in your local machine. 
 
