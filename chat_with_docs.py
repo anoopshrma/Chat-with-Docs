@@ -13,7 +13,7 @@ documents_folder = "./documents"
 PandasAIReader = download_loader("PandasAIReader")
 
 st.title("Welcome to `ChatwithDocs`")
-st.header("Interact with Documents such as `PDFs/CSV/Docs` using the power of LLMs\nPowered by `LlamaIndex🦙` \nCheckout the [GITHUB Repo Here](https://github.com/anoopshrma/Rasa-boilerplate) and Leave a star⭐")
+st.header("Interact with Documents such as `PDFs/CSV/Docs` using the power of LLMs\nPowered by `LlamaIndex🦙` \nCheckout the [GITHUB Repo Here](https://github.com/anoopshrma/Chat-with-Docs) and Leave a star⭐")
 
 
 def get_csv_result(df, query):
