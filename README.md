@@ -26,6 +26,7 @@ Feel free to open any Issue or PR request. This small application can help anyon
 - [ ] Blog explaining the entire application in detail.
 - [ ] Add Docker support.
 - [ ] Deploy the project on Streamlit or DataButton platform.
+- [ ] Add support to handle multiple files at once.
 
 ## Snapshots
 - Upload a CSV file. Get better insights by just asking question, Render graphs based on the Data
