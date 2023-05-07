@@ -24,6 +24,7 @@ Feel free to open any Issue or PR request. This small application can help anyon
 ## Roadmap
 - [ ] Add support for choosing in between GPT-3/GPT-3.5/GPT-4 or HuggingFace model for creating vectors and generating rich responses.
 - [ ] Blog explaining the entire application in detail.
+- [ ] Add Docker support.
 
 ## Snapshots
 - Upload a CSV file. Get better insights by just asking question, Render graphs based on the Data
