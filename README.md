@@ -24,8 +24,8 @@ Feel free to open any Issue or PR request. This small application can help anyon
 ## Roadmap
 - [ ] Add support for choosing in between GPT-3/GPT-3.5/GPT-4 or HuggingFace model for creating vectors and generating rich responses.
 - [x] Blog explaining the entire application in detail.
-- [ ] Add Docker support.
-- [ ] Deploy the project on Streamlit or DataButton platform.
+- [x] Add Docker support.
+- [x] Deploy the project online, You can find it here: [Chat with Docs](https://huggingface.co/spaces/ashrma/Chat-with-Docs).
 - [ ] Add support to handle multiple files at once.
 
 ## Snapshots
