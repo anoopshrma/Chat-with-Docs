@@ -7,7 +7,7 @@ from llama_index import download_loader
 from matplotlib import pyplot as plt
 from pandasai.llm.openai import OpenAI
 
-documents_folder = "./documents"
+documents_folder = "documents"
 
 # Load PandasAI loader, Which is a wrapper over PandasAI library
 PandasAIReader = download_loader("PandasAIReader")
@@ -61,10 +61,11 @@ def create_index():
     # NOTE: You can create vectors for multiple files at once.
     try:
         documents = SimpleDirectoryReader(documents_folder).load_data()
+        index = GPTVectorStoreIndex.from_documents(documents)
+        return index
     except Exception as e:
         st.error("Failed to read documents")
-    index = GPTVectorStoreIndex.from_documents(documents)
-    return index
+    
 
 
 def query_doc(vector_index, query):
